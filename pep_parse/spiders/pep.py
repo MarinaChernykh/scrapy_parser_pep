@@ -9,7 +9,7 @@ class PepSpider(scrapy.Spider):
 
     name = 'pep'
     allowed_domains = [PEP_DOMAIN]
-    start_urls = [f'https://{PEP_DOMAIN}/']
+    start_urls = [f'https://{domain}/' for domain in allowed_domains]
 
     def parse(self, response):
         """

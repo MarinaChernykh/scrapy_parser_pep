@@ -30,3 +30,5 @@ pip install -r requirements.txt
 ```
 scrapy crawl pep
 ```
+## Автор
+Марина Черных
